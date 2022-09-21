@@ -1,0 +1,71 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/JackelineSoares/Projeto_Integrador_T20/blob/main/C%C3%A1lculo%20de%20desconto\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print('CÁLCULO DE DESCONTO')\n",
+        "valor = float(input('Digite o valor do produto: '))\n",
+        "desconto = float(input('Digite a porcentagem de desconto'))\n",
+        "final = valor - (desconto/100)*valor\n",
+        "d= desconto*valor/100\n",
+        "print('Seu desconto será de:',d)\n",
+        "print('O valor final do produto é de:', final)"
+      ],
+      "metadata": {
+        "id": "Gj7a8T_eYShK",
+        "outputId": "3231d60e-2e8b-4894-b994-760d0ff8c4f0",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 22,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "CÁLCULO DE DESCONTO\n",
+            "Digite o valor do produto: 200\n",
+            "Digite a porcentagem de desconto20\n",
+            "Seu desconto será de: 40.0\n",
+            "O valor final do produto é de: 160.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "QhPrLjk9Y1Nc"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "collapsed_sections": [],
+      "name": "Olá, este é o Colaboratory",
+      "toc_visible": true,
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
